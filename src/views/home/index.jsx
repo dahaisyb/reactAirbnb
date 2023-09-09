@@ -1,9 +1,14 @@
-import React, { memo } from 'react'
+import React, { memo } from 'react';
 
-export default memo(function Home() {
+
+const Home = memo(() => {
+
+
     return (
         <div>
-            home
+            <h1>home</h1>
         </div>
-    )
-})
+    );
+});
+
+export default Home;
