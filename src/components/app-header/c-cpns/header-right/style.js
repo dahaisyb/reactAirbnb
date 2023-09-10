@@ -29,6 +29,7 @@ justify-content: end;
 }
 
 .module{
+  background-color: #fff;
   position: absolute;
   width: 200px;
   right: 20px;
